@@ -359,7 +359,10 @@
     var result = mArr.reduce(function (a, b) {
         return a * b;
     });
+    
     console.log('Result = ' + result);
+
+// add for git
 
 
     
