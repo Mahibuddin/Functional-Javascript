@@ -80,3 +80,40 @@
         // Hoisting & Variable Object creation
 
     // Hoisting  : Javascript er jekono code Executioner purbe creational 1 ta phase ashe, shei phase e shomosto variable & function gulo ke khuje ber kore store kora hoy ebong jekhane variable guloke undefined declare kore deya hoy, ebong funtion gulo ke tar referance onujayi store kora hoy orthath jekhane funtion thake shei function onujayi tar point kora hoy, etai mainly Hoisting... jar fole porobortite creational phase ashar purbe amra ei veriable gulo ebong function gulo bebohar korte pari... etai mainly Hoisting...
+
+
+
+
+
+            // Hoisting => Function Expression VS Function Declaration
+
+
+            // Function Declaration :
+
+        declaration ();
+
+        function declaration (){
+            console.log("I am callable from anywhere...");   
+        }
+
+        declaration ();
+
+
+            // Function Expression :
+
+        // expression();
+        // console.log(expression);
+        
+        var expression = function(){
+            console.log('I am Function Expression...');
+            
+        }
+
+        // console.log(expression);
+        expression();
+
+
+
+    // Creating of Scope Chain...
+
+    
